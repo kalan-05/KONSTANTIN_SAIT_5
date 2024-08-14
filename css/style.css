@@ -101,6 +101,15 @@
     padding: 0;
     margin: 0;
 }
+.menu__list a:hover {
+    font-size: 17px;
+    color: #767070;
+    opacity: 1;
+    transition-duration: .4s;
+}
+a:active {
+    color: #767070;
+}
 
 .menu__item:not(:last-child) {
     margin-right: 20px;
