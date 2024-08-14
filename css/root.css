@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url("/font/GothamPro.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("/font/GothamPro-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("/font/GothamPro-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("/font/GothamPro-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("/font/GothamPro-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/* body .custom-font {
+    font-family: "GothamPro", Roboto, Montserrat, sans-serif;
+} */
+
+p {
+    /* font-family: "GothamPro"; */
+	color: #ae0043;
+	font-weight: 700;
+	font-weight: 300;
+	font-size: 28px;
+	text-align: center;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+} */
+/* a {
+    color: var(--fon_light);
+    text-decoration: none;
+} */
+/* body {
+    background-color: var(--fon_light);
+    font-family:"GothamPro", Roboto, Montserrat, sans-serif;
+    color: var(--text_color_fon_light);
+    background-size: 90px;
+    
+} */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "GothamPro", Roboto, Montserrat, sans-serif;
+}
+
+.body-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    padding-top: 85px;
+}
+
+
+
+:root {
+    --index: calc(1vw + 1vh);
+    --fon_dark: #01001C;
+    --fon_light: #F4F5F8;
+    --text_color_fon_light: #070708;
+    --text_color_fon_dark: #fff;
+    /*=======================*/
+    /* 42px */
+    --font-h2: calc(var(--index) * 1.4);
+    /*=======================*/
+    /* 34px */
+    --subtitle-h3: calc(var(--index) * 1.45);
+    /*=======================*/
+    /* 21px */
+    --font-h4: calc(var(--index) * 1.06);
+    /*=======================*/
+    /* 18px */
+    --font-p: calc(var(--index) * 0.9);
+    /*=======================*/
+    --section-top: calc(var(--index) * 1);
+
+    --width-img: calc(var(--index) * 30);
+}
