@@ -3,7 +3,6 @@
 @import "media.css";
 @import "nav.css";
 @import "normalize.css";
-/* @import "nav.css"; */
 @import "1_hero-section.css";
 @import "2_about.css";
 @import "3_history.css";
@@ -12,7 +11,3 @@
 @import "6_details.css";
 @import "7_contacts.css";
 
-/* .item8 {
-	color: #fb0008;
-	font-size: 300;
-} */

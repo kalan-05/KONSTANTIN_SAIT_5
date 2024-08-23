@@ -32,38 +32,6 @@
     font-style: normal;
     font-display: swap;
 }
-/* body .custom-font {
-    font-family: "GothamPro", Roboto, Montserrat, sans-serif;
-} */
-
-p {
-    /* font-family: "GothamPro"; */
-	color: #ae0043;
-	font-weight: 700;
-	font-weight: 300;
-	font-size: 28px;
-	text-align: center;
-}
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
-} */
-/* a {
-    color: var(--fon_light);
-    text-decoration: none;
-} */
-/* body {
-    background-color: var(--fon_light);
-    font-family:"GothamPro", Roboto, Montserrat, sans-serif;
-    color: var(--text_color_fon_light);
-    background-size: 90px;
-    
-} */
 
 html {
     box-sizing: border-box;
@@ -98,10 +66,8 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    padding-top: 85px;
+    /* padding-top: 85px; */
 }
-
-
 
 :root {
     --index: calc(1vw + 1vh);
@@ -111,17 +77,11 @@ body {
     --text_color_fon_dark: #fff;
     /*=======================*/
     /* 42px */
-    --font-h2: calc(var(--index) * 1.4);
-    /*=======================*/
-    /* 34px */
-    --subtitle-h3: calc(var(--index) * 1.45);
-    /*=======================*/
-    /* 21px */
-    --font-h4: calc(var(--index) * 1.06);
-    /*=======================*/
-    /* 18px */
-    --font-p: calc(var(--index) * 0.9);
-    /*=======================*/
+    --font-h2: 2rem;
+    --subtitle-h3: 32px;
+    --font-h4: 28px;
+    --font-p: 20px;
+    
     --section-top: calc(var(--index) * 1);
 
     --width-img: calc(var(--index) * 30);
