@@ -66,23 +66,37 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* padding-top: 85px; */
 }
 
 :root {
     --index: calc(1vw + 1vh);
     --fon_dark: #01001C;
     --fon_light: #F4F5F8;
-    --text_color_fon_light: #070708;
+    --text_color_fon_light: #100314;
     --text_color_fon_dark: #fff;
-    /*=======================*/
+        /*--==========font-size Дистопный шрифт=============--*/
     /* 42px */
     --font-h2: 2rem;
     --subtitle-h3: 32px;
     --font-h4: 28px;
     --font-p: 20px;
-    
-    --section-top: calc(var(--index) * 1);
+        /* ----++++++font-weight Дистопная+++++-- */
+    --font-weight_title-H2:900;
+    --font-weight_subtitle-H3:700;
+    --font-weight_rank-H4:700;
+    --font-weight_text-P:500;
 
+        /* --+++++++++font-size Мобильный шрифт+++++++++++++-- */
+    --font_adapt_title-H2: 36px;
+    --font_adapt_subtitle-H3: 30px;
+    --font_adapt_rank-H4: 24px;
+    --font_adapt_text-P: 16px;
+        /* ----++++++font-weight adapt+++++-- */
+    --font-weight_adapt_title-H2:700;
+    --font-weight_adapt_subtitle-H3:500;
+    --font-weight_adapt_rank-H4:500;
+    --font-weight_adapt_text-P:400;
+
+    --section-top: calc(var(--index) * 1);
     --width-img: calc(var(--index) * 30);
 }

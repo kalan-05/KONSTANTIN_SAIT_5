@@ -1,12 +1,12 @@
 .section-second-about {
-	/* height: 1445px; */
 	padding-inline: 3%;
 }
 .section-second__title {
 	margin: var(--section-top);
 	text-align: center;
+	color: var(--text_color_fon_light);
 	font-size: var(--font-h2);
-	font-weight: 900;
+	font-weight: var(--font-weight_title-H2);
 }
 .section-second__container {
 	display: flex;
@@ -28,10 +28,12 @@
 	height: 460px;
 	text-align: center;
 }
-.section-second__konstantin_rank {
-	/* margin: 30px 70px 130px 110px; */
+.section-second__konstantin_rank,
+.section-second__kirill-rank
+{
+	color: var(--text_color_fon_light);
 	font-size: var(--font-h4);
-	font-weight: 700;
+	font-weight: var(--font-weight_rank-H4);
 	text-align: center;
 	letter-spacing: 1px;
 }
@@ -43,12 +45,11 @@
 	letter-spacing: 1px;
 }
 .section-second__konstantin_surname {
+	color: var(--text_color_fon_light);
 	font-size: var(--subtitle-h3);
-	font-weight: 700;
+	font-weight: var(--font-weight_subtitle-H3);
 	letter-spacing: 4px;
 	text-align: left;
-	/* margin-top: 36px; */
-	/* margin-bottom: 36px; */
 }
 .section-second__konstantin_card {
 	display: flex;
@@ -65,8 +66,9 @@
 	margin-right: 190px;
 	padding: 35px 105px;
 	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
-	font-weight: 500;
+	font-weight: var(--font-weight_text-P);
 }
 .konstantin_card_2 {
 	width: 80%;
@@ -75,8 +77,9 @@
 	margin-right: 190px;
 	padding: 40px 105px;
 	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
-	font-weight: 500;
+	font-weight: var(--font-weight_text-P);
 }
 .konstantin_card_3 {
 	width: 80%;
@@ -85,11 +88,12 @@
 	margin-right: 190px;
 	padding: 40px 105px ;
 	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
-	font-weight: 500;
+	font-weight: var(--font-weight_text-P);
 }
 
-/* __________________________________________________ */
+		/* --________КИРИЛЛ 100____-- */
 
 .section-second__kirill {
 	display: flex;
@@ -101,23 +105,23 @@
 	height: 100%;
 }
 .section-second__title_kirill-surname {
+	color: var(--text_color_fon_light);
 	font-size: var(--subtitle-h3);
-	font-weight: 700;
+	font-weight: var(--font-weight_subtitle-H3);
 	letter-spacing: 6px;
 	margin-top: 80px;
 }
 .section-second__kirill_card {
-	padding: 35px 105px;
+	padding: 35px 5px 35Px 105px;
 	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
 	border-radius: 30px;
 	margin: 50px 50px 150px 50px;
-	font-weight: 500;
-	letter-spacing: 1px;
 }
 .kirill_card {
 	text-align: left;
+	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
-	font-weight: 500;
+	font-weight: var(--font-weight_text-P);
 }
 .section-second__container_kirill-right {
 	height: 100%;
@@ -130,17 +134,10 @@
 }
 .section-second__kirill-photo {
 	margin-top: 20px;
-	width: calc(var(--index) * 20);
-	height: 400px;
+	height: 460px;
 	text-align: center;
 }
-.section-second__kirill-rank {
-	font-size: var(--font-h4);
-	font-weight: 700;
-	letter-spacing: 1px;
-	text-align: center;
-}
-/* ---______________--- */
+/* ---______АДАПТИВ________--- */
 
 @media (max-width: 830px) {
 	.section-second__container {
@@ -154,9 +151,11 @@
 	width: 100%;
 	height: 100%;
 	}
-	.section-second__konstantin_rank {
-	font-size: 24px;
-	font-weight: 700;
+	.section-second__konstantin_rank,
+	.section-second__kirill-rank h4
+	{
+	font-size: var(--font_adapt_rank-H4);
+	font-weight: var(--font-weight_rank-H4);
 	text-align: center;
 	letter-spacing: 1px;
 	}
@@ -189,7 +188,6 @@
 	margin-right: 0;
 	font-size: 18px;
 	}
-
 	/*-- _________830px_____________-- */
 .section-second__kirill {
 	height: 100%;
@@ -209,29 +207,91 @@
 	flex-direction: column;
 	}
 .section-second__kirill_card {
-	margin: 0;
+	width: 80%;
+	margin: 0 auto;
 	}
 .section-second__kirill-rank h4 {
-	margin: -50px;
+	margin: -10px;
+	}
+	.section-second__kirill-photo {
+		width: 400px;
 	}
 .section-second__kirill-photo img {
-	width: 100%;
-}
+		width: 100%;
+	}
 }
 @media (max-width: 430px) {
-	.konstantin_card_1 {
-	width: 90%;
-	margin: 0 auto;
-	padding: 25px 5px 25px 65px;
+	.section-second__title h2 {
+		font-size: var(--font_adapt_title-H2);
+		font-weight: var(--font-weight_adapt_title-H2);
 	}
-	.konstantin_card_2 {
-	width: 90%;
-	margin: 0 auto;
-	padding: 25px 5px 25px 65px;
+	.section-second__konstantin_surname h3,
+	.section-second__title_kirill-surname h3 
+	{
+		font-size: var(--font_adapt_subtitle-H3);
+		font-weight: var(--font-weight_adapt_subtitle-H3);
+		letter-spacing: 4px;
 	}
-	.konstantin_card_3 {
-	width: 90%;
-	margin: 0 auto;
-	padding: 25px 5px 25px 65px;
+	.section-second__konstantin_card {
+		gap: 15px;
+	}
+	.konstantin_card_1,
+	.konstantin_card_2,
+	.konstantin_card_3,
+	.section-second__kirill_card
+	{
+		width: 90%;
+		margin: 0 auto;
+		padding: 25px 25px 25px 35px;
+		font-size: var(--font_adapt_text-P);
+		font-weight: var(--font-weight_adapt_text-P);
+	}
+	.kirill_card {
+		font-size: var(--font_adapt_text-P);
+		font-weight: var(--font-weight_adapt_text-P);
+	}
+	.section-second__kirill-photo {
+		width: 400px;
+	}
+	.section-second__kirill-photo img {
+		width: 100%;
+	}
+	.section-second__konstantin_rank h4,
+	.section-second__kirill-rank h4 
+	{
+		font-size: var(--font_adapt_rank-H4);
+		font-weight: var(--font-weight_rank-H4);
+	}
+		.section-second__kirill-rank h4 {
+		margin: -5px;
+		margin-bottom: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 391px) {
+	.konstantin_card_1,
+	.konstantin_card_2,
+	.konstantin_card_3
+	{
+		width: 80%;
+		padding: 15px 35px;
+	}
+	/* .section-second__konstantin_card {
+		gap: 15px;
+	} */
+	
+	.section-second__kirill-rank h4 {
+		margin: -20px;
+		margin-bottom: 5px;
 	}
 }

@@ -1,7 +1,93 @@
-/* .item4 {
-	color: #035132;
-	font-weight: 700;
-	font-weight: 300;
-	font-size: 48px;
-	text-align: end;
-} */
+.section-four-services {
+	padding-inline: 3%;
+}
+.services__title {
+	margin: var(--section-top);
+	font-size: var(--font-h2);
+	font-weight: var(--font-weight_title-H2);
+	text-align: center;
+	color: var(--text_color_fon_light);
+}
+.section-four-services__row {
+	display: flex;
+	align-content: flex-start;
+	justify-content: center;
+	gap: 64px;
+
+}
+.name__services {
+	color: var(--text_color_fon_light);
+	font-size: var(--subtitle-h3);
+	font-weight: var(--font-weight_subtitle-H3);
+	text-align: center;
+}
+.title__services {
+	margin: 40px auto;
+	color: var(--text_color_fon_light);
+	font-size: var(--font-h4);
+	font-weight: var(--font-weight_rank-H4);
+	letter-spacing: 1px;
+	text-align: center;
+}
+.content__list {
+	list-style: inside;
+	color: var(--text_color_fon_light);
+	font-size: var(--font-p);
+	font-weight: var(--font-weight_text-P);
+	letter-spacing: 1px;
+}
+.content__list li::marker {
+	font-size: var(--font-p);
+	color: #5c4d4d;
+}
+.title__services {
+	color: var(--text_color_fon_light);
+	font-size: var(--font-p);
+	font-weight: var(--font-weight_text-P);
+	letter-spacing: 1px;
+}
+.title__services2 {
+	margin-top: 126px;
+}
+
+@media (max-width: 830px) {
+	.section-four-services__row {
+		flex-direction: column;
+		gap: 0;
+	}
+	.name__services_one h3 {
+		margin-top: 0;
+	}
+	.name__services h3 {
+		margin-bottom: 37px;
+	}
+	.title__services2 {
+		margin-top: 0;
+	}
+	.content__list {
+		padding-left: 210px;
+	}
+}
+@media (max-width: 769px) {
+	.content__list {
+		padding-left: 10px;
+	}
+}
+@media (max-width: 430px) {
+	.services__title h2 {
+		font-size: var(--font_adapt_title-H2);
+		font-weight: var(--font-weight_adapt_title-H2);
+	}
+	.name__services h3 {
+		font-size: var(--font_adapt_subtitle-H3);
+		font-weight: var(--font-weight_adapt_subtitle-H3);
+	}
+	.title__services h4 {
+		font-size: var(--font_adapt_rank-H4);
+		font-weight: var(--font-weight_rank-H4);
+	}
+	.content__list {
+		font-size: var(--font_adapt_text-P);
+		font-weight: var(--font-weight_adapt_text-P);
+	}
+}

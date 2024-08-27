@@ -10,7 +10,6 @@
     -webkit-backdrop-filter: blur(8px);
     box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, 0.13);
 }
-
 .header__container {
     display: flex;
     justify-content: space-between;
@@ -19,11 +18,9 @@
     padding-bottom: 25px;
     transition:  padding-top .3s,  padding-bottom .3s;
 }
-
 .header_mini {
     box-shadow: 0px 0px 30px -11px rgba(0,0,0,0.8);
 }
-
 .header_mini .header__container {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -33,16 +30,13 @@ a.menu__link {
     font-weight: 500;
     font-size: 18px;
 }
-
 .logo {
     display: block;
     color: var(--text_color_fon_dark);
 }
-
 .logo__img {
     width: 200px;
 }
-
 .header__burger-btn {
     display: none;
     position: relative;
@@ -54,7 +48,6 @@ a.menu__link {
     z-index: 2;
     cursor: pointer;
 }
-
 .header__burger-btn span {
     display: block;
     position: absolute;
@@ -65,23 +58,16 @@ a.menu__link {
     transition: background-color .3s, opacity .3s, transform .5s;
     will-change: transform;
 }
-
 .header__burger-btn:hover span {
     background-color: rgb(216, 211, 211);
 }
-
 .header__burger-btn span:nth-child(1) {
     transform: translateY(-10px);
 }
-
-/* .header__burger-btn span:nth-child(2) {} */
-
 .header__burger-btn span:nth-child(3) {
     transform: translateY(10px);
 }
-
-
-/* Крестик */
+                /* --Крестик-- */
 
 .header.open .header__burger-btn span {
     background-color: var(--text_color_fon_light);
@@ -115,15 +101,12 @@ a.menu__link {
 a:active {
     color: #767070;
 }
-
 .menu__item:not(:last-child) {
     margin-right: 20px;
 }
-
 .menu__link {
     font-size: 16px;
 }
-
 .menu__icon img {
     background-color: var(--fon_dark);
     width: 40px;
