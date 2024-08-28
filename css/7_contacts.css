@@ -42,13 +42,14 @@
 .contact-column {
 	display: flex;
 	flex-direction: column;
-	padding-inline: 3%;
+	width: 70%;
+	/* padding-inline: 3%; */
 }
 .contacts-content {
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 	letter-spacing: 1px;
-	padding-left: 5%;
+	/* padding-left: 5%; */
 }
 .address {
 	font-size: var(--font-h4);
@@ -56,7 +57,7 @@
 	letter-spacing: 1px;
 	margin-top: 130px;
 	padding-bottom: 20px;
-	padding-inline: 3%;
+	/* padding-inline: 3%; */
 }
 .imgEntrance {
 	margin: 0 34px ;
@@ -84,6 +85,7 @@
 	font-weight: 100;
 	text-align: center;
 	padding: 15px;
+	line-height: 30px;
 }
 @media (max-width: 821px) {
 	.address {
@@ -104,19 +106,19 @@
 .contact-title h2 {
 		font-size: var(--font_adapt_title-H2);
 		font-weight: var(--font-weight_adapt_title-H2);
-}
+	}
 .address h4 {
 		margin-top: 80px;
 		font-size: var(--font_adapt_rank-H4);
 		font-weight: var(--font-weight_rank-H4);
-}
+	}
 .contacts-content p {
 		font-size: var(--font_adapt_text-P);
 		font-weight: var(--font-weight_adapt_text-P);
 		line-height: 23px;
-}
+	}
 .content_copyright p {
-	font-size: 12px;
-	line-height: 20px;
-}
+		font-size: 12px;
+		line-height: 20px;
+	}
 }
