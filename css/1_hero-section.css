@@ -82,13 +82,13 @@
 }
 @media (max-width: 480px) {
 	.hero-section__title h1 {
-		margin-top: 7rem;
+		margin-top: 1rem;
 		font-size: 1.8rem;
 		line-height: 4rem;
 		font-weight: 700;
 	}
 	.text-hero-section h2 {
-		margin-top: 9rem;
+		margin-top: 3rem;
 		font-size: 1rem;
 		text-align: center;
 	}

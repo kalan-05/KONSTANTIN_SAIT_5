@@ -103,6 +103,9 @@
 	}
 }
 @media (max-width: 430px) {
+.contact-column {
+	width: 100%;
+}
 .contact-title h2 {
 		font-size: var(--font_adapt_title-H2);
 		font-weight: var(--font-weight_adapt_title-H2);
@@ -118,7 +121,7 @@
 		line-height: 23px;
 	}
 .content_copyright p {
-		font-size: 12px;
+		font-size: 10px;
 		line-height: 20px;
 	}
 }
