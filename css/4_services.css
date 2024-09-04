@@ -13,7 +13,6 @@
 	align-content: flex-start;
 	justify-content: center;
 	gap: 64px;
-
 }
 .name__services {
 	color: var(--text_color_fon_light);
@@ -35,6 +34,7 @@
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 	letter-spacing: 1px;
+	line-height: 1.5;
 }
 .content__list li::marker {
 	font-size: var(--font-p);

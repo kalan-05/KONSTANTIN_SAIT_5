@@ -21,6 +21,7 @@
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 	letter-spacing: 1px;
+	line-height: 1.5;
 }
 .li_shift {
 	margin-left: -12px;
@@ -37,6 +38,7 @@
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 	letter-spacing: 1px;
+	line-height: 1.5;
 }
 .section-five-price__text {
 	font-size: var(--font-p);
