@@ -15,6 +15,7 @@
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 	letter-spacing: 1px;
+	line-height: 30px;
 }
 .section-six-details__content p {
 	padding: 20px;
