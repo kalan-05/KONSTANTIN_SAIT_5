@@ -2,16 +2,16 @@
 	background: var(--fon_dark);
 	color: var(--text_color_fon_dark);
 	max-width: 100%;
-	height: 100svh;
+	max-height: 100svh;
 }
 .hero-section__container {
 	/* background-image: url("../img/bcg.svg"); */
 	background-size: cover;
 	background-position: center;
-	max-height: 100svh;
+	/* max-height: 100%; */
 }
 .hero-section__title h1 {
-	font-size: 6rem;
+	font-size: 5.5rem;
 	line-height: 2;
 	letter-spacing: 3px;
 	font-weight: 900;
@@ -21,7 +21,7 @@
 }
 .text-hero-section h2 {
 	margin: 0;
-	padding-bottom: 1rem;
+	padding-bottom: 1.2rem;
 	font-size: 32px;
 	line-height: 4.125rem;
 	font-weight: 700;
