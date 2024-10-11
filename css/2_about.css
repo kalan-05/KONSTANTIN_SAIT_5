@@ -167,7 +167,7 @@
 } */
 /* ---______АДАПТИВ________--- */
 
-@media (max-width: 830px) {
+@media (max-width: 990px) {
 	.section-second__container {
 	display: flex;
 	flex-direction: column;
