@@ -50,7 +50,7 @@
 	margin-top: 126px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 1031px) {
 	.section-four-services__row {
 		flex-direction: column;
 		gap: 0;
