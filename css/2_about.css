@@ -35,7 +35,7 @@
 .section-second__konstantin_photo img,
 .section-second__kirill-photo img {
 	border-radius: 15px;
-	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
 }
 .section-second__konstantin_rank,
 .section-second__kirill-rank
@@ -82,8 +82,8 @@
 	/* margin-right: 190px; */
 	/* padding: 35px 105px; */
 	padding: 35px 40px;
-	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
-	color: var(--text_color_fon_light);
+	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	color: var(--text_color_fon_light); */
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 }
@@ -93,7 +93,7 @@
 	text-align: left;
 	/* margin-right: 190px; */
 	padding: 35px 40px;
-	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
 	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
@@ -104,7 +104,7 @@
 	text-align: left;
 	/* margin-right: 190px; */
 	padding: 35px 40px;
-	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
 	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
@@ -139,7 +139,7 @@
 .section-second__kirill_card {
 	width: 72%;
 	padding: 35px 40px;
-	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
+	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
 	border-radius: 30px;
 	margin-right: 50px;
 	margin-left: 50px;

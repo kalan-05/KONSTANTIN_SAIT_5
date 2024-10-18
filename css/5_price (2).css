@@ -6,7 +6,6 @@
 	font-size: var(--font-h2);
 	font-weight: var(--font-weight_title-H2);
 	text-align: center;
-	color: var(--text_color_fon_light);
 }
 .list {
 	display: flex;
@@ -42,7 +41,6 @@
 	line-height: 1.5;
 }
 .section-five-price__text {
-	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 	letter-spacing: 1px;
@@ -51,7 +49,7 @@
 .section-five-price__text p {
 	padding: 20px;
 }
-/*--------------------------------------------------*/
+/*-----------------------------------------------------------*/
 @media (max-width: 769px) {
 	.section-five-price__list-title {
 		padding-left: 30px;
@@ -65,23 +63,19 @@
 	display: flex;
 	line-height: 23px;
 	}
-	.section-five-price__list-two {
-		font-weight: var(--font-weight_text-P);
-		color: var(--text_color_fon_light);
-	}
 	/* .section-five-price__list-title {
 		font-weight: 700;
 		font-size: 40px;
 		color: aqua;
 	} */
 	
-	/* .section-five-price__list-title,
+	.section-five-price__list-title,
 	.section-five-price__list-price,
 	.section-five-price__text
 	{
 		font-size: var(--font_adapt_text-P);
 		font-weight: var(--font-weight_adapt_rank-H4);
-	} */
+	}
 }
 @media (max-width: 430px) {
 	.section-five-price__title h2 {
@@ -111,9 +105,6 @@
 	}
 	.list-two {
 		font-size: var(--font_adapt_text-P);
-		font-weight: var(--font-weight_adapt_text-P);
-	}
-	.section-five-price__list-two {
 		font-weight: var(--font-weight_adapt_text-P);
 	}
 }
