@@ -14,7 +14,6 @@
 	align-items: flex-start;
 	min-width: 100%;
 	min-height: 90%;
-	gap: 20px;
 }
 .section-second__img-konstantin {
 	display: flex;
@@ -22,20 +21,16 @@
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	width: 50%;
+	width: 45%;
 	
 }
 .section-second__konstantin_photo,
 .section-second__kirill-photo {
-	/* margin-top: 20px; */
-	/* height: 460px; */
 	text-align: center;
-	
 }
 .section-second__konstantin_photo img,
 .section-second__kirill-photo img {
 	border-radius: 15px;
-	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
 }
 .section-second__konstantin_rank,
 .section-second__kirill-rank
@@ -49,69 +44,47 @@
 .section-second__konstantin_education {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	/* align-content: center; */
-	text-align: center;
-	letter-spacing: 1px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 55%;
+	gap: 45px;
 }
 .section-second__konstantin_surname,
-.section-second__title_kirill-surname {
+.section-second__title_kirill-surname 
+{
 	color: var(--text_color_fon_light);
 	font-size: var(--subtitle-h3);
 	font-weight: var(--font-weight_subtitle-H3);
 	letter-spacing: 4px;
 	text-align: left;
 }
+.section-second__konstantin_surname {
+	letter-spacing: 0;
+}
 .section-second__konstantin_surname h3,
-.section-second__title_kirill-surname h3 {
-	margin-top: 0;
+.section-second__title_kirill-surname h3 
+{
+	margin: 0;
 }
 .section-second__konstantin_card {
 	display: flex;
 	flex-direction: column;
-	align-content: center;
 	justify-content: flex-start;
-	/* align-items: flex-start; */
-	align-items: center;
-	/* gap: 10px; */
 }
-.konstantin_card_1 {
-	width: 80%;
+.konstantin_card_1,
+.konstantin_card_2,
+.konstantin_card_3
+{
+	width: 90%;
 	border-radius: 30px;
 	text-align: left;
-	/* margin-right: 190px; */
-	/* padding: 35px 105px; */
-	padding: 35px 40px;
-	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
-	color: var(--text_color_fon_light); */
-	font-size: var(--font-p);
-	font-weight: var(--font-weight_text-P);
-}
-.konstantin_card_2 {
-	width: 80%;
-	border-radius: 30px;
-	text-align: left;
-	/* margin-right: 190px; */
-	padding: 35px 40px;
-	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
+	background-color: var(--background_card);
+	padding: 35px 66px;
 	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 }
-.konstantin_card_3 {
-	width: 80%;
-	border-radius: 30px;
-	text-align: left;
-	/* margin-right: 190px; */
-	padding: 35px 40px;
-	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
-	color: var(--text_color_fon_light);
-	font-size: var(--font-p);
-	font-weight: var(--font-weight_text-P);
-}
-
 		/* --________КИРИЛЛ 100____-- */
-
 .section-second__kirill {
 	display: flex;
 	justify-content: space-between;
@@ -122,76 +95,56 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	/* align-items: center; */
-	gap: 88px;
-	/* height: 100%; */
+	align-items: flex-start;
+	width: 55%;
+	letter-spacing: 2px;
+	gap: 45px;
 }
-/* .section-second__title_kirill-surname {
-	color: var(--text_color_fon_light);
-	font-size: var(--subtitle-h3);
-	font-weight: var(--font-weight_subtitle-H3);
-	letter-spacing: 4px;
-	text-align: left;
-} */
-/* .section-second__title_kirill-surname h3 {
-	margin-top: 0;
-} */
 .section-second__kirill_card {
-	width: 72%;
-	padding: 35px 40px;
-	/* box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5); */
+	width: 90%;
+	padding: 35px 64px;
+	background-color: var(--background_card);
+	text-align: start;
 	border-radius: 30px;
-	margin-right: 50px;
-	margin-left: 50px;
-	/* margin: 50px 50px 150px 50px; */
 }
 .kirill_card {
-	
-	text-align: left;
 	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
 }
 .section-second__container_kirill-right {
-	/* height: 100%; */
 	display: flex;
 	flex-direction: column;
 	align-content: center;
 	justify-content: space-around;
 	align-items: center;
-	/* width: 40%; */
+	width: 45%;
 }
-/* .section-second__kirill-photo {
-	margin-top: 20px;
-	height: 460px;
-	text-align: center;
-} */
-/* .section-second__kirill-photo img {
-	border-radius: 15px;
-	box-shadow: 0 5px 30px 0 rgba(0,0,0,0.5);
-} */
 /* ---______АДАПТИВ________--- */
-@media (max-width: 1025px) {
-	.section-second__container_kirill-left {
-		gap: 65px;
-		width: 77%;
+@media (max-width: 1030px) {
+	.konstantin_card_1,
+	.konstantin_card_2,
+	.konstantin_card_3,
+	.section-second__kirill_card 
+	{
+		width: 100%;
 	}
 }
-
 @media (max-width: 990px) {
-	.section-second__container {
+.section-second__container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	gap: 0;
 	}
-.section-second__img-konstantin {
-	width: 100%;
+.section-second__konstantin_education,
+.section-second__container_kirill-left
+	{
+	gap: 20px;
 	}
-	.section-second__konstantin_rank,
-	.section-second__kirill-rank h4
+.section-second__konstantin_rank,
+.section-second__kirill-rank h4
 	{
 	font-size: var(--font_adapt_rank-H4);
 	font-weight: var(--font-weight_rank-H4);
@@ -213,17 +166,15 @@
 	gap: 0;
 	}
 .konstantin_card_1,
-.kirill_card {
+.kirill_card 
+	{
 	margin-right: 0;
 	font-size: 18px;
 	width: 100%;
 	}
-.konstantin_card_2 {
-	width: 100%;
-	margin-right: 0;
-	font-size: 18px;
-	}
-.konstantin_card_3 {
+.konstantin_card_2,
+.konstantin_card_3
+	{
 	width: 100%;
 	margin-right: 0;
 	font-size: 18px;
@@ -237,9 +188,6 @@
 	align-items: center;
 	margin-bottom: 30px;
 	}
-	.section-second__container_kirill-left {
-	gap: 20px;
-	}
 .section-second__title_kirill-surname h3 {
 	text-align: center;
 	}
@@ -249,23 +197,7 @@
 .section-second__container_kirill-right {
 	flex-direction: column;
 	}
-/* .section-second__kirill_card {
-	width: 80%;
-	margin: 0 auto;
-	} */
-/* .section-second__kirill-rank h4 {
-	margin: -10px;
-	} */
-	/* .section-second__kirill-photo {
-		width: 400px;
-	} */
-/* .section-second__kirill-photo img {
-		width: 100%;
-	} */
 }
-/* @media (max-width: 891px) {
-
-} */
 @media (max-width: 913px) {
 	.section-second__konstantin_rank h4,
 	.section-second__kirill-rank h4 
@@ -273,29 +205,16 @@
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
-		.section-second__container_kirill-left {
+	.section-second__img-konstantin,
+	.section-second__container_kirill-right,
+	.section-second__konstantin_education,
+	.section-second__container_kirill-left 
+	{
 		align-items: center;
 		width: 100%;
 	}
-		.section-second__kirill_card {
-		width: 100%;
-		margin-left: 0;
-		margin-right: 0;
-	}
-	/* .section-second__kirill_card {
-		width: 95%;
-	} */
 }
 @media (max-width: 769px) {
-	/* .section-second__container_kirill-left {
-		align-items: center;
-		width: 100%;
-	} */
-	/* .section-second__kirill_card {
-		width: 100%;
-		margin-left: 0;
-		margin-right: 0;
-	} */
 	.section-second__konstantin_rank h4,
 	.section-second__kirill-rank h4 
 	{
@@ -304,19 +223,9 @@
 	}
 	.kirill_card p{
 		font-size: 18px;
-		
-		
-		/* margin-left: 0; */
-		/* margin-right: 0; */
-		/* padding: 35px 40px; */
-		/* padding-right: 150px; */
 	}
 }
-
 @media (max-width: 430px) {
-		.section-second__container_kirill-left {
-			height: 100%;
-		}
 	.section-second__title h2 {
 		font-size: var(--font_adapt_title-H2);
 		font-weight: var(--font-weight_adapt_title-H2);
@@ -336,7 +245,7 @@
 	.konstantin_card_3,
 	.section-second__kirill_card
 	{
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		padding: 25px 25px 25px 35px;
 		font-size: var(--font_adapt_text-P);
@@ -346,12 +255,6 @@
 		font-size: var(--font_adapt_text-P);
 		font-weight: var(--font-weight_adapt_text-P);
 	}
-	/* .section-second__kirill-photo {
-		width: 400px;
-	} */
-	/* .section-second__kirill-photo img {
-		width: 100%;
-	} */
 	.section-second__konstantin_rank h4,
 	.section-second__kirill-rank h4 
 	{
@@ -369,21 +272,10 @@
 	.konstantin_card_3,
 	.section-second__kirill_card
 	{
-		width: 80%;
 		padding: 15px 35px;
 	}
-	/* .section-second__konstantin_card {
-		gap: 15px;
-	} */
 	.section-second__kirill-photo img {
 		margin-top: 20px;
 		margin-bottom: 5px;
-	}
-
-	@media (max-width: 345px){
-		.section-second__kirill-photo img {
-		margin-top: 0;
-		margin-bottom: 0;
-	}
 	}
 }

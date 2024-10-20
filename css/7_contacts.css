@@ -12,7 +12,7 @@
 	align-content: center;
 	align-items: center;
 	height: 280px;
-	background: #feffff;
+	background-color: var(--fon_light);
 	z-index: 100;
 }
 .button-image img:hover {

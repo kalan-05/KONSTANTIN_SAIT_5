@@ -14,6 +14,9 @@
 	justify-content: center;
 	gap: 64px;
 }
+.section-four-services__column {
+	width: 48%;
+}
 .name__services {
 	color: var(--text_color_fon_light);
 	font-size: var(--subtitle-h3);
@@ -49,12 +52,14 @@
 .title__services2 {
 	margin-top: 126px;
 }
-
 @media (max-width: 1031px) {
 	.section-four-services__row {
 		flex-direction: column;
 		gap: 0;
 	}
+	.section-four-services__column {
+	width: 100%;
+}
 	.name__services_one h3 {
 		margin-top: 0;
 	}

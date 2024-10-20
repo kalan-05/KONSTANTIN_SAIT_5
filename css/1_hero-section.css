@@ -27,22 +27,22 @@
 	font-weight: 700;
 	text-transform: uppercase;
 }
-@media (max-width: 1190px) {
+	@media (max-width: 1190px) {
 	.hero-section__title h1 {
 		font-size: 5.5rem;
 	}
 }
-@media (max-width: 1100px) {
+	@media (max-width: 1100px) {
 	.hero-section__title h1 {
 		font-size: 4.5rem;
 	}
 }
-@media (max-width: 910px) {
+	@media (max-width: 910px) {
 	.hero-section__title h1 {
 		font-size: 4rem;
 	}
 }
-@media (max-width: 821px) {
+	@media (max-width: 821px) {
 	.hero-section__title h1 {
 		padding-top: 15rem;
 		font-size: 3.5rem;
@@ -52,7 +52,6 @@
 		padding-top: 8rem;
 		font-size: 1.5rem;
 		}
-
 }
 	@media (max-width: 769px) {
 	.hero-section__title h1 {
@@ -70,7 +69,7 @@
 		line-height: 9rem;
 		}
 }
-@media (max-width: 610px) {
+	@media (max-width: 610px) {
 	.hero-section__title h1 {
 		font-size: 2.2rem;
 		font-weight: 700;
@@ -80,7 +79,7 @@
 		font-size: 1.5rem;
 	}
 }
-@media (max-width: 541px) {
+	@media (max-width: 541px) {
 		.hero-section__title h1 {
 		line-height: 5rem;
 	}
@@ -88,7 +87,7 @@
 		font-size: 1.5rem;
 	}
 }
-@media (max-width: 480px) {
+	@media (max-width: 480px) {
 	.hero-section__title h1 {
 		margin-top: 1rem;
 		font-size: 1.8rem;
@@ -101,7 +100,7 @@
 		text-align: center;
 	}
 }
-@media (max-width: 391px) {
+	@media (max-width: 391px) {
 	.hero-section__title h1 {
 		/* margin-top: 1rem; */
 		padding-top: 12rem;
@@ -114,7 +113,7 @@
 		font-size: 1rem;
 		text-align: center;
 		}
-@media (max-width: 321px) {
+	@media (max-width: 321px) {
 	.hero-section__title h1 {
 		margin-top: 3rem;
 		padding-top: 6rem;
