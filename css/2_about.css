@@ -77,6 +77,7 @@
 {
 	width: 90%;
 	border-radius: 30px;
+	border: 1.5px solid #ffffff;
 	text-align: left;
 	background-color: var(--background_card);
 	padding: 35px 66px;
@@ -102,6 +103,7 @@
 }
 .section-second__kirill_card {
 	width: 90%;
+	border: 1.5px solid #ffffff;
 	padding: 35px 64px;
 	background-color: var(--background_card);
 	text-align: start;
