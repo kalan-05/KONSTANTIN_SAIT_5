@@ -84,7 +84,7 @@
 	}
 }
 @media (max-width: 541px) {
-		.hero-section__title h1 {
+	.hero-section__title h1 {
 		line-height: 5rem;
 	}
 	.text-hero-section h2 {
