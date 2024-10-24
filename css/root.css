@@ -32,37 +32,30 @@
     font-style: normal;
     font-display: swap;
 }
-
 html {
     box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
     box-sizing: inherit;
 }
-
 a {
     color: inherit;
     text-decoration: none;
 }
-
 img {
     max-width: 100%;
 }
-
 body {
     font-family: "GothamPro", Roboto, Montserrat, sans-serif;
     background-color: var(--fon_light);
 }
-
 .body-wrapper {
     overflow: hidden;
     width: 100%;
     position: relative;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -75,29 +68,22 @@ body {
     --background_card: #f7f9f9;
     --text_color_fon_light: #100314;
     --text_color_fon_dark: #fff;
-        /*--==========font-size Дистопный шрифт=============--*/
-    /* 42px */
     --font-h2: 2rem;
     --subtitle-h3: 32px;
     --font-h4: 28px;
     --font-p: 20px;
-        /* ----++++++font-weight Дистопная+++++-- */
     --font-weight_title-H2:900;
     --font-weight_subtitle-H3:700;
     --font-weight_rank-H4:700;
     --font-weight_text-P:500;
-
-        /* --+++++++++font-size Мобильный шрифт+++++++++++++-- */
     --font_adapt_title-H2: 36px;
     --font_adapt_subtitle-H3: 30px;
     --font_adapt_rank-H4: 24px;
     --font_adapt_text-P: 16px;
-        /* ----++++++font-weight adapt+++++-- */
     --font-weight_adapt_title-H2:700;
     --font-weight_adapt_subtitle-H3:500;
     --font-weight_adapt_rank-H4:500;
     --font-weight_adapt_text-P:400;
-
     --section-top: calc(var(--index) * 1);
     --width-img: calc(var(--index) * 30);
 }

@@ -32,8 +32,6 @@
 	text-align: center;
 }
 .content__list {
-	/* list-style: inside; */
-	/* padding-left: 40px; */
 	color: var(--text_color_fon_light);
 	font-size: var(--font-p);
 	font-weight: var(--font-weight_text-P);
