@@ -1,11 +1,22 @@
-const headerEl = document.getElementById('header')
+const headerEl = document.getElementById('header');
 
-window.addEventListener('scroll', function () {
-	const scrollPos = window.scrollY
+if (headerEl) {
+    let lastKnownScroll = 0;
+    let ticking = false;
 
-	if (scrollPos > 100) {
-		headerEl.classList.add('header_mini')
-	} else {
-		headerEl.classList.remove('header_mini')
-	}
-});
+    const updateHeaderState = () => {
+        const isMini = lastKnownScroll > 100;
+        headerEl.classList.toggle('header_mini', isMini);
+        ticking = false;
+    };
+
+    window.addEventListener('scroll', () => {
+        lastKnownScroll = window.scrollY;
+
+        if (!ticking) {
+            ticking = true;
+            // Исправлено: переносим работу в requestAnimationFrame вместо каждого события scroll
+            requestAnimationFrame(updateHeaderState);
+        }
+    }, { passive: true });
+}
