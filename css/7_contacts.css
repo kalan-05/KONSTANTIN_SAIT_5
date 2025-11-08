@@ -42,25 +42,32 @@
 	flex-direction: column;
 	width: 70%;
 }
-.contacts-content p{
-	font-size: var(--font-p);
-	font-weight: var(--font-weight_text-P);
-	letter-spacing: 1px;
-	line-height: 2;
+.contacts-list {
+        /* Исправлено: оформляем контакты сеткой вместо абзацев с <br> */
+        display: grid;
+        gap: 12px;
+        font-size: var(--font-p);
+        font-weight: var(--font-weight_text-P);
+        letter-spacing: 1px;
+        line-height: 1.6;
+        margin-top: 20px;
+        padding: 0;
+}
+.contacts-list__label {
+        font-weight: var(--font-weight_rank-H4);
 }
 .address {
-	font-size: var(--font-h4);
-	font-weight: var(--font-weight_rank-H4);
-	letter-spacing: 1px;
-	margin-top: 100px;
-	padding-bottom: 20px;
-	cursor: pointer;
+        display: inline-block;
+        font-size: var(--font-h4);
+        font-weight: var(--font-weight_rank-H4);
+        letter-spacing: 1px;
+        margin-top: 100px;
+        padding-bottom: 12px;
+        cursor: pointer;
+        text-decoration: underline;
 }
 .address:hover {
-	font-size: 22px;
-	color: #767070;
-	opacity: 1;
-	transition-duration: .9s;
+        color: #767070;
 }
 .imgEntrance {
 	margin: 0 34px ;
@@ -82,8 +89,8 @@
 	transform:translate(25px, 15px);
 }
 .phone {
-	font-size: var(--font-p);
-	cursor: pointer;
+        font-size: var(--font-p);
+        cursor: pointer;
 }
 .map {
 	background-color: var(--fon_light);
@@ -111,12 +118,9 @@
 	}
 }
 @media (max-width: 1030px) {
-	.contacts-content p {
-		font-size: 16px;
-	}
-	.phone {
-		font-size: 17px;
-	}
+        .phone {
+                font-size: 17px;
+        }
 	.imgEntrance img {
 		width: 450px;
 		padding-top: 80px;
@@ -129,25 +133,17 @@
 		margin-top: 80px;
 		line-height: 3px;
 	}
-	.contacts-content p {
-		font-size: 16px;
-		line-height: 30px;
-	}
-	.phone {
-		font-size: 17px;
-	}
+        .phone {
+                font-size: 17px;
+        }
 	.abk {
 		width: 4%;
 	}
 }
 @media (max-width: 769px) {
-	.contacts-content p {
-		font-size: 14px;
-		line-height: 30px;
-	}
-	.contact-column {
-		width: 60%;
-	}
+        .contact-column {
+                width: 60%;
+        }
 	.phone {
 		font-size: 15px;
 	}
@@ -159,10 +155,10 @@
 	.contact-column {
 		width: 100%;
 	}
-	.address {
-		margin-top: 110px;
-		text-align: center;
-	}
+        .address {
+                margin-top: 110px;
+                text-align: center;
+        }
 	.abk {
 		width: 6%;
 	}
@@ -172,18 +168,18 @@
 		font-size: var(--font_adapt_title-H2);
 		font-weight: var(--font-weight_adapt_title-H2);
 	}
-	.address {
-		margin-top: 80px;
-		text-align: center;
-		font-size: var(--font_adapt_rank-H4);
-		font-weight: var(--font-weight_rank-H4);
-	}
-	.contacts-content p {
-		font-size: 10px;
-		letter-spacing: 0.1px;
-		font-weight: var(--font-weight_adapt_text-P);
-		line-height: 23px;
-	}
+        .address {
+                margin-top: 80px;
+                text-align: center;
+                font-size: var(--font_adapt_rank-H4);
+                font-weight: var(--font-weight_rank-H4);
+        }
+        .contacts-list {
+                font-size: 10px;
+                letter-spacing: 0.1px;
+                font-weight: var(--font-weight_adapt_text-P);
+                line-height: 1.8;
+        }
 	.phone {
 		font-size: 11px;
 	}
